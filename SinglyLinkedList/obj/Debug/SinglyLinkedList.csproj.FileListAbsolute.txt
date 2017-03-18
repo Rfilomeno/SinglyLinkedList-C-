@@ -1,0 +1,6 @@
+C:\workspace\SinglyLinkedList\SinglyLinkedList\bin\Debug\SinglyLinkedList.exe.config
+C:\workspace\SinglyLinkedList\SinglyLinkedList\bin\Debug\SinglyLinkedList.exe
+C:\workspace\SinglyLinkedList\SinglyLinkedList\bin\Debug\SinglyLinkedList.pdb
+C:\workspace\SinglyLinkedList\SinglyLinkedList\obj\Debug\SinglyLinkedList.csprojResolveAssemblyReference.cache
+C:\workspace\SinglyLinkedList\SinglyLinkedList\obj\Debug\SinglyLinkedList.exe
+C:\workspace\SinglyLinkedList\SinglyLinkedList\obj\Debug\SinglyLinkedList.pdb
