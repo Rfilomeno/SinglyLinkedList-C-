@@ -21,6 +21,11 @@ namespace SinglyLinkedList
             //Console.WriteLine(list.Contains(2));
             Console.ReadKey();
 
+            foreach (var item in list)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            Console.ReadKey();
         }
     }
 }

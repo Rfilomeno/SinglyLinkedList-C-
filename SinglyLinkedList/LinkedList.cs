@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SinglyLinkedList
 {
-    class LinkedList
+    class LinkedList : IEnumerable
     {
         LinkedListNode head;
 
@@ -38,6 +39,17 @@ namespace SinglyLinkedList
                 iterador = iterador.Next;
             }
             return false;
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            LinkedListNode ProximoNo = head;
+
+            while (ProximoNo != null)
+            {
+                yield return ProximoNo.Valor;
+                ProximoNo = ProximoNo.Next;
+            }
         }
 
         public bool remove(int valor)
